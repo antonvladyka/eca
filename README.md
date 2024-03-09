@@ -8,6 +8,10 @@ Idea:
 1. We define N basis vectors V in X space, such that the covered variance for the prediction of the X, projected on V space, is maximized in respect to Y.
 2. These vectors are calculated one by one, i.e. projections on the first vector cover most of the variance.
 
+
+Being applied to spectroscopy: the model predictd spectrum from the structure. The goal of ECA is to find a subspace $V$ in structural space $X$ to cover the most of spectral variance.
+![ECA_concept](https://github.com/antonvladyka/eca/assets/4227840/1c08e84b-e467-4560-914a-14b0cdf01227)
+
 Similar concept: see [w:Projection pursuit regression](https://en.wikipedia.org/wiki/Projection_pursuit_regression)
 
 ## Glossary and functions:
